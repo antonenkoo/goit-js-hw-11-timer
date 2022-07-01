@@ -2,12 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./js/index.js"></script>
+    <title>Timer</title>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="../src/partials/timer.html"></include>
+    <h1>timer</h1>
+
+    <input type="date" class="calendar" value="" />
+
+    <button type="button" class="start-btn">start</button>
+    <button type="button" class="stop-btn">stop</button>
+    <button type="button" class="reset-btn">reset</button>
+
+    <div class="timer" id="timer-1">
+      <div class="field">
+        <span class="value" data-value="days">00</span>
+        <span class="label">Days</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="mins">00</span>
+        <span class="label">Minutes</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="secs">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
   </body>
+  <script src="./js/index.js"></script>
 </html>
