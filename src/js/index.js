@@ -1,4 +1,4 @@
-console.log('b');
+console.log('top of index.js');
 const calendar = document.querySelector('input[type="date"]');
 const clock = document.querySelector('input[type="time"]');
 
