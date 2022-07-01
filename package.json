@@ -1,21 +1,21 @@
 {
-  "name": "goit-js-hw-11-promisification",
+  "name": "goit-js-hw-11-timer",
   "version": "2.0.0",
   "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
-  "homepage": "https://antonenkoo.github.io/goit-js-hw-11-promisification",
+  "homepage": "https://antonenkoo.github.io/goit-js-hw-11-timer",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-timer/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonenkoo/goit-js-hw-11-promisification.git"
+    "url": "git+https://github.com/antonenkoo/goit-js-hw-11-timer.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antonenkoo/goit-js-hw-11-promisification/issues"
+    "url": "https://github.com/antonenkoo/goit-js-hw-11-timer/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
